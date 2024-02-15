@@ -725,3 +725,32 @@ img {
         transition-duration: 300ms;
         resize: none;
 }
+
+.check-text {
+    width: 338px;
+        font-size: 12px;
+        /* line-height: 117%; */
+        letter-spacing: 0.04em;
+        color: #8E8F99;
+        display: flex;
+        align-items: center;
+        margin: 6px;
+}
+
+.check-text a {
+    /* line-height: 133%; */
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4D5AE5;
+}
+
+.check-text span {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid #2E2F42;
+}
+
+.form-check:checked {
+
+}
