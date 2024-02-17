@@ -770,3 +770,54 @@ img {
         outline: transparent;
         resize: none;
 }
+
+.check-text {
+    font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: #8E8F99;
+        display: flex;
+        align-items: center;
+}
+
+.check-text a {
+    line-height: 1,33;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #4D5AE5;
+}
+
+.check-text span {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid #2E2F42;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.form-check:checked + .check-text span {
+    background-color: #404BBF;
+    fill: #F4F4FD; 
+}
+
+.button-submit {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #4D5AE5;
+    top: -50%;
+    transform: translate( 50%);
+}
