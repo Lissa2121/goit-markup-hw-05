@@ -624,6 +624,66 @@ img {
     height: 24px;
 }
 
+.footer-subscribe {
+    margin-left: 79px;
+}
+
+.footer-text-subscribe {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+}
+
+.footer-form {
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    padding-right: 16px;
+    padding-left: 16px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    outline: transparent;
+    margin-right: 24px;
+}
+
+.footer-input::placeholder {
+    
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+}
+
+
+
+.footer-btn {
+    border-radius: 4px;
+    border: none;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-icon-btn {
+    fill: #FFFFFF;
+}
+
 
 
 /* ========MODAL=============== */
