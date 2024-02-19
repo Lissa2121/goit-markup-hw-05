@@ -634,14 +634,18 @@ img {
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #FFFFFF;
-        margin-bottom: 24px;
+        margin-bottom: 16px;
 }
 
 .footer-form {
-    margin-right: 24px;
+    gap: 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.footer-label {
+
 }
 
 .footer-input {
@@ -668,20 +672,25 @@ img {
 
 
 .footer-btn {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
     border-radius: 4px;
     border: none;
     background-color: #4D5AE5;
     color: #FFFFFF;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .footer-icon-btn {
     fill: #FFFFFF;
+    margin-left: 16px;
 }
 
 
