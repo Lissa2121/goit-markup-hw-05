@@ -659,14 +659,18 @@ img {
     background-color: transparent;
     outline: transparent;
     margin-right: 24px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
 
 .footer-input::placeholder {
     
-        font-size: 12px;
+        /* font-size: 12px;
         line-height: 2;
         letter-spacing: 0.04em;
-        color: #FFFFFF;
+        color: #FFFFFF; */
 }
 
 
