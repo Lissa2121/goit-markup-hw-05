@@ -742,6 +742,7 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
+        margin-bottom: 16px;
     }
 
 .modal-form {
@@ -750,7 +751,7 @@ img {
 }
 
 .modal-field {
-margin-bottom: 24px;
+   
 }
 
 .modal-label {
@@ -768,7 +769,7 @@ margin-bottom: 24px;
 
 .modal-input-wrap {
     position: relative;
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 
 .modal-input {
