@@ -746,12 +746,15 @@ img {
     }
 
 .modal-form {
-   
-
+    margin-bottom: 8px;
 }
 
 .modal-field {
    
+}
+
+.field {
+    margin-bottom: 16px;
 }
 
 .modal-label {
