@@ -742,8 +742,7 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
-        /* margin-bottom: 16px; */
-}
+    }
 
 .modal-form {
    
@@ -858,7 +857,7 @@ margin-bottom: 16px;
 }
 
 
-.form-check:checked + .check-text span {
+.form-check:checked + .check-text-span {
     border: none;
     background-color: #404BBF;
     fill: #F4F4FD; 
