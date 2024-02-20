@@ -846,9 +846,9 @@ img {
 .check-text-span {
     width: 16px;
     height: 16px;
+    display: inline-flex;
     border-radius: 2px;
     margin-right: 8px;
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
