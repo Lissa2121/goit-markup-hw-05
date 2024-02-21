@@ -811,6 +811,10 @@ img {
     fill: #4D5AE5;
 }
 
+.modal-field {
+    margin-bottom: 16px;
+}
+
 /* .label {
     margin-top: 8px;
 } */
