@@ -750,7 +750,7 @@ img {
 }
 
 .modal-field {
-margin-bottom: 24px;
+/* margin-bottom: 24px; */
 }
 
 .field {
@@ -772,11 +772,11 @@ margin-bottom: 24px;
 
 .modal-input-wrap {
     position: relative;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .label {
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .modal-input {
