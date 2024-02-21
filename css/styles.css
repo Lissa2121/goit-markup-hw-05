@@ -849,12 +849,13 @@ img {
         text-decoration: underline;
         text-decoration-skip-ink: none;
         color: #4D5AE5;
+        display: inline-flex;
 }
 
 .check-text-span {
     width: 16px;
     height: 16px;
-    display: inline-flex;
+    /* display: inline-flex; */
     border-radius: 2px;
     margin-right: 8px;
     align-items: center;
