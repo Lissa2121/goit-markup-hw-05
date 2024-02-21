@@ -113,16 +113,10 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
     display: block;
     position: relative;
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* transition-property: background-color;
-    transition-duration: 1000ms;
-    transition-delay: 1000ms;
-    transition-timing-function: linear; */
 }
 
 .header-menu-link:hover {
@@ -168,10 +162,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* transition-property: background-color;
-    transition-duration: 1000ms;
-    transition-delay: 1000ms;
-    transition-timing-function: linear; */
 }
 
 .header-address-link:hover {
@@ -263,6 +253,7 @@ img {
 }
 
 .features-icon-background {
+    /* display: none; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -865,12 +856,13 @@ img {
     height: 16px;
     border-radius: 2px;
     margin-right: 8px;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
+    
 }
 
 
